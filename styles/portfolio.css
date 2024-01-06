@@ -9,10 +9,11 @@ body {
 nav {
     /* for inline element */
     display: flex;
-    /* for all nav in smae align */
+    /* for all nav in same align */
     align-items: center;
     /* for spaced between nav */
     justify-content: space-between;
+    margin: 0 200px;
 
 }
 
@@ -29,7 +30,7 @@ nav {
     color: white;
     font-weight: 700;
     padding: 15px 35px;
-    
+
 
 
 }
@@ -63,4 +64,25 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747
+}
+
+/* header related style */
+.head {
+    background: #FFF8F3;
+}
+
+.banner {
+    
+    /* for padding */
+     padding: 30px 30px 30px 150px; 
+     display: flex; 
+     align-items: center; 
+
+}
+
+.banner .profile{
+    
+    width: 650px;
+    
+
 }
