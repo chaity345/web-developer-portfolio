@@ -3,6 +3,27 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-tittle {
+    color: (#181818);
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.section-description{
+    color: ( #757575);
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+
+
+}
+
 
 /* nav related styles */
 
@@ -69,20 +90,56 @@ nav a {
 /* header related style */
 .head {
     background: #FFF8F3;
+    /* for image backround */
+    background-image: url(../images/header_bg.png);
+    /* for avoid background repeat */
+    background-repeat: no-repeat;
+    /* for the right position */
+    background-position: bottom right;
 }
 
 .banner {
-    
+
     /* for padding */
-     padding: 30px 30px 30px 150px; 
-     display: flex; 
-     align-items: center; 
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
 
 }
 
-.banner .profile{
-    
-    width: 650px;
-    
+.banner .profile {
 
+    width: 650px;
+
+
+}
+
+/* for banner font style */
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    /* for reduce two line gap */
+    margin-bottom: 0;
+
+}
+
+.banner-tittle {
+    font-size: 85px;
+    font-weight: 700;
+    /* for reduce two line gap */
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+}
+
+/* main section style */
+/* About section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0 ;
 }
