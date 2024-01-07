@@ -91,11 +91,11 @@ nav a {
 .head {
     background: #FFF8F3;
     /* for image backround */
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     /* for avoid background repeat */
     background-repeat: no-repeat;
-    /* for the right position */
-    background-position: bottom right;
+    /* for the background position */
+    background-position: bottom right,top left;
 }
 
 .banner {
@@ -247,4 +247,4 @@ textarea {
     /* whatever your space it will be 100% */
     width: 100%;
 }
-/* if i create a submit button with input then i have to consider submit button specially  */
+/* if i create a submit button with input then i have to consider submit button specially  * /
