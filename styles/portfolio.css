@@ -141,7 +141,8 @@ main {
     /* for adjust left and right side margin */
     margin: 0 auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
@@ -180,13 +181,14 @@ main section{
 
 
 }
+
 /* for style of skill description part */
-.skill-description{
-    color: ( #757575);
+.skill-description {
+    color: (#757575);
 
-font-size: 16px;
+    font-size: 16px;
 
-font-weight: 400;
+    font-weight: 400;
 
 
 }
@@ -194,16 +196,55 @@ font-weight: 400;
 #what-i-do {
     padding: 30px 150px;
 }
+
 /* resume color style */
-.resume-colum-tittle{
-    color: ( #474747);
+.resume-colum-tittle {
+    color: (#474747);
 
-font-size: 30px;
+    font-size: 30px;
 
-font-weight: 700;
+    font-weight: 700;
 
 
 
 
 }
 
+.resume-container {
+    display: flex;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    /* for gap between two coloum */
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-colom {
+    width: 50%;
+
+
+}
+/* style for socail link */
+.social-link a{
+    margin-right: 24px;
+}
+
+.contact input,
+textarea {
+    display: block;
+    padding: 18px 35px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    background: (#FFF);
+    color: ( #757575);
+    font-size: 16px;
+    border: 0;
+    /* whatever your space it will be 100% */
+    width: 100%;
+}
+/* if i create a submit button with input then i have to consider submit button specially  */
